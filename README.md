@@ -11,9 +11,10 @@ Softplus関数は、微分不可能な点が存在しないため、誤差逆伝
 アーキテクチャの概略は以下の通りである。 出力データと訓練データのラベルの交差エントロピー誤差を最小にするように学習パラメータの更新を行う。
 最適化手法はAdamを選択し、ハイパーパラメータとしてlearning rate,dropout,チャンネル数、カーネルサイズなどの設定を訓練データ、検証用データの評価を考慮して行った。
 
+![mnist_cnn](https://user-images.githubusercontent.com/57475794/89707687-84457180-d9ab-11ea-9531-ac8091a98742.png)
 
 ## 結果
 ![mnist_graph_loss](https://user-images.githubusercontent.com/57475794/89707633-05503900-d9ab-11ea-959b-5515315f55a5.png)
+
 ![mnist_acc](https://user-images.githubusercontent.com/57475794/89707663-4cd6c500-d9ab-11ea-9593-74d3337de1dc.png)
 
-## 
